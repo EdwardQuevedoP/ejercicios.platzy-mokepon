@@ -1,4 +1,5 @@
 let ataquejugador = ""
+let ataqueEnemigo
 
     function iniciarjuego() {
         let botonMascotaJugador = document.getElementById('boton-mascota')
@@ -11,6 +12,7 @@ let ataquejugador = ""
 
         let botonTierra = document.getElementById('boton-tierra')
         botonTierra.addEventListener('click', ataqueTierra)
+        seleccionarMascotaJugador()
     }
 
 function seleccionarMascotaJugador() {
@@ -76,20 +78,26 @@ function seleccionarMascotaEnemigo() {
 
 function ataqueFuego() {
     ataquejugador = 'FUEGO'
-    alert(ataquejugador)
+         ataqueAleatorioEnemigo()
 }
 
 
 function ataqueAgua() {
     ataquejugador = 'AGUA'
-    alert(ataquejugador)
+      ataqueAleatorioEnemigo()
 }
 
 
 function ataqueTierra() {
     ataquejugador = 'TIERRA'
-    alert(ataquejugador)
+      ataqueAleatorioEnemigo()
 }
+
+function ataqueAleatorioEnemigo(){
+    Aleatorio
+    ataqueEnemigo
+}
+
 
 function Aleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
@@ -100,7 +108,7 @@ function Aleatorio(min, max) {
 
 
 let botonMascotaJugador = document.getElementById("boton-mascota")
-botonMascotaJugador.addEventListener('click', seleccionarMascotaJugador)
+botonMascotaJugador.addEventListener('click', iniciarjuego)
 
 
 // Hipoge -> agua💧
