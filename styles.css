@@ -1,6 +1,32 @@
+#seleccionar_mascotas{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center ;
+   
+}
+
 .titulo {
     color: gold;
     width: 300px;
     height: 50px;
     background-color: aqua;
+}
+.subtitulo{
+
+}
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 100px;
+    box-sizing: border-box;
+}
+input{
+    display: none;
 }

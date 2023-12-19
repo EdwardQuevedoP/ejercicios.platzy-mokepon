@@ -9,23 +9,25 @@
 </head>
 
 <body>
-    <h1  class="titulo">MOKEPON!🔥💧🌱</h1>
-
     <section id="seleccionar_mascotas">
-        <h2>selecciona tu mascota:</h2>
+        <h1 class="titulo">MOKEPON!🔥💧🌱</h1>
 
-        <input type="radio" name="mascota" id="Hipoge" />
-        <label for="Hipoge">Hipoge</label>
+        <h2 class="subtitulo">selecciona tu mascota:</h2>
 
-        <input type="radio" name="mascota" id="Capipepo" />
-        <label for="Capipepo">Capipepo</label>
+        <div class="tarjetas">
+            <label  class="tarjeta-de-mokepon" for="Hipoge">Hipoge</label>
+            <input type="radio" name="mascota" id="Hipoge" />
+
+            <label  class="tarjeta-de-mokepon" for="Capipepo">Capipepo</label>
+            <input type="radio" name="mascota" id="Capipepo" />
 
 
-        <input type="radio" name="mascota" id="Ratigueya" />
-        <label for="Ratigueya">Ratigueya</label>
+            <label class="tarjeta-de-mokepon" for="Ratigueya">Ratigueya</label>
+            <input type="radio" name="mascota" id="Ratigueya" />
+        </div>
 
 
-        <input type="radio" name="mascota" id="Langostelvis" />
+        <!-- <input type="radio" name="mascota" id="Langostelvis" />
         <label for="Langostelvis">Langostelvis</label>
 
 
@@ -34,7 +36,7 @@
 
 
         <input type="radio" name="mascota" id="Pydos" />
-        <label for="Pydos">Pydos</label>
+        <label for="Pydos">Pydos</label> -->
 
 
 
@@ -50,6 +52,8 @@
     </section>
 
     <section id="seleccionar_ataque">
+        <h1 class="titulo">MOKEPON!🔥💧🌱</h1>
+
         <h2>selecciona tu ataque:</h2>
         <p>tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
         <p>la mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
@@ -65,8 +69,8 @@
     <section id="reiniciar">
         <button>reiniciar juego</button>
     </section>
-    
-    
+
+
 </body>
 
 </html>
