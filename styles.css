@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
+body{
+    font-family: 'Rubik Doodle Shadow',cursive;
+    background-color: #E36414;
+}
+
 #seleccionar_mascotas{
     display: flex;
     flex-direction: column;
@@ -8,8 +14,7 @@
 
 .titulo {
     color: gold;
-    width: 300px;
-    height: 50px;
+    font-size: 32px;
     background-color: aqua;
 }
 .subtitulo{
@@ -21,11 +26,29 @@
 }
 
 .tarjeta-de-mokepon{
-    width: 100px;
+    color: black;
+    width: 180px;
     height: 100px;
-    background-color: aquamarine;
+    background-color: #B6C4B6;
     padding: 100px;
     box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img{
+    width: 80px;
+    height: 80px;
+}
+#boton-mascota{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    border: 2px solid saddlebrown;
+    color: blue;
 }
 input{
     display: none;
