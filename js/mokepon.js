@@ -59,20 +59,21 @@ function seleccionarMascotaJugador() {
     } else if (inputRatigueya.checked) {
 
         spanMascotaJugador.innerHTML = 'Ratigueya'
-
-    } else if (inputLangostelvis.checked) {
-      
-        spanMascotaJugador.innerHTML = 'Langostelvis'
-
-    } else if (inputTucapalma.checked) {
-      
-        spanMascotaJugador.innerHTML = 'Tucapalma'
-
-    } else if (inputPydos.checked) {
-       
-        spanMascotaJugador.innerHTML = 'Pydos'
-
     }
+
+    //  else if (inputLangostelvis.checked) {
+      
+    //     spanMascotaJugador.innerHTML = 'Langostelvis'
+
+    // } else if (inputTucapalma.checked) {
+      
+    //     spanMascotaJugador.innerHTML = 'Tucapalma'
+
+    // } else if (inputPydos.checked) {
+       
+    //     spanMascotaJugador.innerHTML = 'Pydos'
+
+    // }
     seleccionarMascotaEnemigo()
 }
 

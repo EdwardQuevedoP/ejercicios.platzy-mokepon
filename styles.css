@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
-body{
-    font-family: 'Rubik Doodle Shadow',cursive;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Roboto:wght@300&display=swap');body{
+    font-family: 'Roboto',cursive;
     background-color: #E36414;
 }
 
@@ -16,6 +15,8 @@ body{
     color: gold;
     font-size: 32px;
     background-color: aqua;
+    font-family: 'Fredoka',cursive;
+
 }
 .subtitulo{
 
@@ -49,6 +50,8 @@ body{
     background-color: aquamarine;
     border: 2px solid saddlebrown;
     color: blue;
+    font-family: 'Roboto', cursive ;
+    margin-top: 20px ;
 }
 input{
     display: none;
